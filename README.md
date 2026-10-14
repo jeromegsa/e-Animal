@@ -1,24 +1,21 @@
-# Zoo Project - Application de gestion de zoo
+# e-Animal
 
-Application web full-stack de gestion d'un zoo : suivi des animaux,
-de leurs espèces et races, gestion des vétérinaires, upload de photos
-et publication d'annonces, avec authentification sécurisée.
+Plateforme web de mise en relation entre propriétaires d'animaux
+et services animaliers (vétérinaires, professionnels du secteur).
 
 ## Fonctionnalités
-- Authentification par JWT et gestion des utilisateurs
-- Gestion des animaux, espèces et races (CRUD complet)
-- Upload et gestion des images d'animaux
-- Gestion des vétérinaires
-- Module d'annonces
-- API REST documentée automatiquement (Swagger via FastAPI)
+- Authentification sécurisée des utilisateurs (JWT)
+- Publication et gestion d'annonces liées aux animaux
+- Gestion des profils d'animaux (espèces, races) et des vétérinaires
+- Upload et gestion des photos
+- API REST documentée (Swagger via FastAPI)
 
 ## Stack technique
-- **Back-end** : FastAPI (Python), SQLModel, MySQL, JWT (python-jose)
-- **Front-end** : React 19, Redux Toolkit, React Router, Material UI, Tailwind CSS
-- **Communication** : API REST (Axios), validation Formik + Yup
+- Back-end : FastAPI (Python), SQLModel, MySQL, JWT (python-jose)
+- Front-end : React
+- Communication : API REST
 
 ## Installation
-
 ### Back-end
 ​```bash
 cd zoo_back
@@ -33,3 +30,6 @@ cd zoo_front
 npm install
 npm run dev
 ​```
+
+## Auteur
+Jérôme GBOSSA
